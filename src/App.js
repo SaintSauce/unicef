@@ -26,14 +26,14 @@ function App() {
 
             </div>
             <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Home/>}>
+                <Routes >
+                    <Route path="/unicef" element={<Home/>}>
                         <Route index element={<Home/>} />
                     </Route>
                     
-                    <Route path="share" element={<Share/>} />
-                    <Route path="help" element={<Help/>} />
-                    <Route path="about" element={<About />} />
+                    <Route path="/unicef/share" element={<Share/>} />
+                    <Route path="/unicef/help" element={<Help/>} />
+                    <Route path="/unicef/about" element={<About />} />
                 </Routes>
             </BrowserRouter>
         </div>

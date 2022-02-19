@@ -14,19 +14,19 @@ const NavBar = () => {
                 }}
             >
 
-                <Link href="/" underline='none'>
+                <Link href="/unicef" underline='none'>
                     <Button variant="outlined">Home</Button>
                 </Link>
             
-                <Link href="/share" underline='none'>
+                <Link href="/unicef/share" underline='none'>
                     <Button variant="outlined">Share your thoughts</Button>
                 </Link>
                 
-                <Link href="/help" underline='none'>
+                <Link href="/unicef/help" underline='none'>
                     <Button variant="outlined">Be a part of the mission </Button>
                 </Link>
                 
-                <Link href="/about" underline='none'>
+                <Link href="/unicef/about" underline='none'>
                     <Button variant="outlined">About</Button>
                 </Link>
             </Stack>
