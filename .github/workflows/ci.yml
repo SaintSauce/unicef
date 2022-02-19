@@ -15,7 +15,7 @@ jobs:
       - run: |
           npm ci
           npm run build
-          mv build docs
+          mv build/ docs/
           git add -f docs
         env:
           CI: false
