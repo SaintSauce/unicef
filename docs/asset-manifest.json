@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.653c9023.css",
-    "main.js": "/static/js/main.fcbeb0e8.js",
-    "static/js/787.efd0fab9.chunk.js": "/static/js/787.efd0fab9.chunk.js",
-    "static/media/kid_support.png": "/static/media/kid_support.0c42f48fd440ae8f4cd6.png",
-    "static/media/kid_picture.jpg": "/static/media/kid_picture.1db71d71dcdc2b53242a.jpg",
-    "static/media/game_screenshot.png": "/static/media/game_screenshot.accad0ca56192c3da3a5.png",
-    "index.html": "/index.html",
-    "main.653c9023.css.map": "/static/css/main.653c9023.css.map",
-    "main.fcbeb0e8.js.map": "/static/js/main.fcbeb0e8.js.map",
-    "787.efd0fab9.chunk.js.map": "/static/js/787.efd0fab9.chunk.js.map"
+    "main.css": ".unicef/static/css/main.653c9023.css",
+    "main.js": ".unicef/static/js/main.b9589e3b.js",
+    "static/js/787.efd0fab9.chunk.js": ".unicef/static/js/787.efd0fab9.chunk.js",
+    "static/media/kid_support.png": ".unicef/static/media/kid_support.0c42f48fd440ae8f4cd6.png",
+    "static/media/kid_picture.jpg": ".unicef/static/media/kid_picture.1db71d71dcdc2b53242a.jpg",
+    "static/media/game_screenshot.png": ".unicef/static/media/game_screenshot.accad0ca56192c3da3a5.png",
+    "index.html": ".unicef/index.html",
+    "main.653c9023.css.map": ".unicef/static/css/main.653c9023.css.map",
+    "main.b9589e3b.js.map": ".unicef/static/js/main.b9589e3b.js.map",
+    "787.efd0fab9.chunk.js.map": ".unicef/static/js/787.efd0fab9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.653c9023.css",
-    "static/js/main.fcbeb0e8.js"
+    "static/js/main.b9589e3b.js"
   ]
 }

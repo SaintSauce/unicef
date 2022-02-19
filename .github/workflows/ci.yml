@@ -14,8 +14,7 @@ jobs:
           node-version: 16.x
       - run: |
           npm ci
-          npm run build
-          mv build/ docs/
+          BUILD_PATH=docs npm run build
           git add -f docs
         env:
           CI: false
