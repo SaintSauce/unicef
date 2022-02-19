@@ -1,38 +1,41 @@
 import React from 'react';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Particles from "react-tsparticles";
-import logo from './logo.svg';
 import './App.css';
+import NavBar from "./components/NavBar";
+import About from "./pages/About";
+import Help from "./pages/Help";
+import Home from "./pages/Home";
+import Share from "./pages/Share";
 import particlesOptions from "./particles.json";
+
 
 function App() {
     return (
         <div className="App">
+            <NavBar />
             <Particles options={particlesOptions}/>
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo"/>
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <p>
-                    Edit <code>src/particles.json</code> to customize Particles, then save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-                <a
-                    className="App-link"
-                    href="https://particles.js.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    See Particles samples
-                </a>
-            </header>
+            
+            <div
+                style={{
+                    width: "100%",
+                    height: "500%",
+                    backgroundColor: "white",
+                }}
+            >
+
+            </div>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="/" element={<Home/>}>
+                        <Route index element={<Home/>} />
+                    </Route>
+                    
+                    <Route path="share" element={<Share/>} />
+                    <Route path="help" element={<Help/>} />
+                    <Route path="about" element={<About />} />
+                </Routes>
+            </BrowserRouter>
         </div>
     );
 }
