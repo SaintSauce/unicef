@@ -12,7 +12,7 @@ fetch("https://httpbin.org/ip").then(res => res.json()).then(({ origin }) => {
 })
 
 
-const gunBlogs = gun.get('dhwiuahdwuaihdaw')
+const gunBlogs = gun.get('ftyffuyfug')
 
 function submit(name, review) {
     gunBlogs.put({ [name || ip]: review })

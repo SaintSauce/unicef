@@ -17,6 +17,8 @@ jobs:
           npm run build
           mv build docs
           git add -f docs
+        env:
+          CI: false
       - name: Push
         env:
           MESSAGE: ${{ github.event.head_commit.message }}
